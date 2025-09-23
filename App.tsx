@@ -7,7 +7,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Layout from "../client/Layout/Layout";
+import Layout from './Layout/Layout'
 import Index from "./pages/Index";
 import Aboutus from "./pages/Aboutus";
 import NotFound from "./pages/NotFound";
