@@ -10,17 +10,16 @@
     "scripts": [
       "dist/server/**/*.js"
     ]
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "start": "node dist/server/node-build.mjs",
-    "test": "vitest --run",
-    "format.fix": "prettier --write .",
-    "typecheck": "tsc"
-  },
+  },"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "start": "node dist/server/node-build.mjs",
+  "test": "vitest --run",
+  "format.fix": "prettier --write .",
+  "typecheck": "tsc"
+},
   "dependencies": {
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
