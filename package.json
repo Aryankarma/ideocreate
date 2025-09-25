@@ -10,7 +10,7 @@
     "scripts": [
       "dist/server/**/*.js"
     ]
-  },"scripts": {
+    },"scripts": {
   "dev": "vite",
   "build": "vite build",
   "predeploy": "npm run build",
